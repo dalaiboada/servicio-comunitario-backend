@@ -1,0 +1,35 @@
+{
+  "name": "servicio_comunitario_backend",
+  "version": "1.0.0",
+  "description": "API RESTful desarrollada con Node.js, Express y MongoDB para la gestión del contenido de proyectos de Servicio Comunitario. Incluye manejo de carga de archivos (imágenes y documentos).",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalaiboada/servicio-comunitario-backend.git"
+  },
+  "author": "Lilith Zahir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalaiboada/servicio-comunitario-backend/issues"
+  },
+  "homepage": "https://github.com/dalaiboada/servicio-comunitario-backend#readme",
+  "dependencies": {
+    "bcrypt": "6.0.0",
+    "cookie-parser": "1.4.7",
+    "cors": "2.8.5",
+    "dotenv": "17.2.3",
+    "express": "5.2.1",
+    "jsonwebtoken": "9.0.3",
+    "mongoose": "^9.0.2",
+    "multer": "2.0.2"
+  },
+  "devDependencies": {
+    "morgan": "1.10.1",
+    "nodemon": "3.1.11"
+  }
+}

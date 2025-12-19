@@ -1,0 +1,6 @@
+node_modules/
+.env
+/study
+
+# Ignorar todo el contenido de uploads (porque el servidor las crea)
+public/uploads/
